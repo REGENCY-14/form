@@ -46,7 +46,7 @@ const MyForm2 = () => {
                     </label>
                 <p>Forgot password?</p>
                     <button type="submit">Continue</button>
-                    <p>Don't have an account? Sign up</p>
+                    <p>Don't have an account? <a>Sign up</a> </p>
                 </form>
                 </div>
       </div>

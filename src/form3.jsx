@@ -39,7 +39,7 @@ const MyForm3 = () => {
        
         <button type="submit">Continue</button>
                 </form>
-                <p>Already have an account? Log in </p>
+                <p>Already have an account? <a>Log in</a>  </p>
                 <button>Continue with Github</button> <br />
                 <br />
                 <button>Continue with Google</button>
