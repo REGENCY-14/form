@@ -1,0 +1,56 @@
+/* src/MyForm.css */
+.parent{
+  height: 100vh;
+  display: grid;
+  place-items: center;
+
+}
+
+.parent img{
+  transform: scale(0.2);
+  margin-bottom: -30%;
+  margin-top: -20%;
+}
+
+.my-form {
+  text-align: center;
+ 
+}
+
+.my-form h2{
+  font-size: 2rem;
+  font-weight: bolder;
+}
+
+.my-form p{
+  padding-left: 10%;
+  padding-right: 10%;
+
+}
+
+
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 10px;
+}
+
+input {
+  padding: 8px;
+  margin-bottom: 10px;
+  width:100%;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #cc2020;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
