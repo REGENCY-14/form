@@ -9,8 +9,8 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route exact path="/Form1" element={<MyForm />}></Route>
-        <Route exact path="/Form2" element={<MyForm2 />}></Route>
+        <Route exact path="/form1" element={<MyForm />}></Route>
+        <Route exact path="/form2" element={<MyForm2 />}></Route>
         <Route exact path="/" element={<MyForm3/>}></Route>
       </Routes>
     </Router>
